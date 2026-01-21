@@ -1,7 +1,7 @@
 resource "aws_vpc" "this" {
   cidr_block = "10.0.0.0/16"
   tags = {
-    Name = "project29-vpc"
+    Name = "project25-vpc"
   }
 }
 resource "aws_subnet" "public" {
@@ -11,7 +11,7 @@ resource "aws_subnet" "public" {
   availability_zone       = "ap-south-1a"
 
   tags = {
-    Name = "project29-public-subnet"
+    Name = "project25-public-subnet"
   }
 }
 
