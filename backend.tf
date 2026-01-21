@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket  = "terraform-state-968402771136-poc29-ap-south-1"
-    key     = "project29/terraform.tfstate"
+    bucket  = "terraform-state-222369475350-poc25-ap-south-1"
+    key     = "project25/terraform.tfstate"
     region  = "ap-south-1"
     encrypt = true
   }
