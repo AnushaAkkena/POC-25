@@ -16,7 +16,7 @@ resource "aws_security_group" "ec2_sg" {
   }
 
   tags = {
-    Name = "project29-ec2-sg"
+    Name = "project25-ec2-sg"
   }
 }
 
@@ -27,6 +27,6 @@ resource "aws_instance" "this" {
   security_groups = [aws_security_group.ec2_sg.id]
 
   tags = {
-    Name = "project29-ec2"
+    Name = "project25-ec2"
   }
 }
